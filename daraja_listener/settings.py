@@ -29,7 +29,8 @@ SECRET_KEY = '88s80@31wuiz00_+o8(wv#(i4v^*65c6&0o%3rk*d5&yycp+ae'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '*']
+ALLOWED_HOSTS = ['web-production-e37a.up.railway.app', 'localhost', 'https://web-production-e37a.up.railway.app']
+CSRF_TRUSTED_ORIGINS=['https://web-production-e37a.up.railway.app']
 
 
 # Application definition
